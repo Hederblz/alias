@@ -1,5 +1,5 @@
 ### Abre este arquivo de conf com o neovim
-alias aliasconf='nvim ~/Documentos/aliasBash/bash_aliases'
+alias aliasconf='nvim ~/Documentos/aliasBash/.bash_aliases'
 
 ### Comandos
 
@@ -14,6 +14,6 @@ alias nf='neofetch'
 alias upd='sudo pacman -Syyu'
 
 ### colocar no ~/.bashrc
-#if [ -f ~/Documentos/aliasBash/bash_aliases]; then
-#	. ~/Documentos/aliasBash/bash_aliases
+#if [ -f ~/Documentos/aliasBash/.bash_aliases]; then
+#	. ~/Documentos/aliasBash/.bash_aliases
 #fi
