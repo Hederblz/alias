@@ -1,5 +1,5 @@
-### Abre este arquivo de conf com o Gedit
-alias aliasconf='nvim ~/.bash_aliases'
+### Abre este arquivo de conf com o neovim
+alias aliasconf='nvim ~/Documentos/aliasBash/bash_aliases'
 
 ### Comandos
 
@@ -13,3 +13,7 @@ alias please='sudo'
 alias nf='neofetch'
 alias upd='sudo pacman -Syyu'
 
+### colocar no ~/.bashrc
+#if [ -f ~/Documentos/aliasBash/bash_aliases]; then
+#	. ~/Documentos/aliasBash/bash_aliases
+#fi
