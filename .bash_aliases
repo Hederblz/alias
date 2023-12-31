@@ -1,5 +1,6 @@
 ### Abre este arquivo de conf com o neovim
-alias aliasconf='nvim ~/Documentos/aliasBash/.bash_aliases'
+#alias aliasconf='nvim ~/Documents/alias/.bash_aliases'
+alias aliasconf='nano ~/.bashrc'
 
 ### Comandos
 
@@ -16,6 +17,6 @@ alias cache='sudo pacman -Sc'
 alias remove='sudo pacman -Rsn'
 alias install='sudo pacman -S'
 ### colocar no ~/.bashrc
-#if [ -f ~/Documentos/aliasBash/.bash_aliases]; then
-#	. ~/Documentos/aliasBash/.bash_aliases
+#if [ -f ~/Documents/alias/.bash_aliases]; then
+#	. ~/Documents/alias/.bash_aliases
 #fi
